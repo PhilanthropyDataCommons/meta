@@ -13,8 +13,8 @@ Justin Reese and Jonathan Mergy worked together on desired scope and requirement
   - A "so nice to have that we should strongly consider it as MVP" feature is to omit the association IDs from the CSV, and instead allow the user to select from a list of sources, application forms, and other associated entities prior to upload
 - Where the uploader identifies an existing proposal in the system, it should create a new version
 - If any errors are encountered, the entire operation is transactionally cancelled (see ④ below for an optional different mode)
-- Both successful and unsuccessful uploads should generate a report of what happened (more details TBD)
-- View list of prior uploads and view their reports
+- Both successful and unsuccessful uploads should generate a report of what happened: number of records added, timestamp, any useful identifiers like a job ID, etc.
+- View list of prior uploads
 - View list of base fields for reference (see ③ for scope of base fields to show)
 
 ## Stretch Goals / Post-MVP Enhancements
