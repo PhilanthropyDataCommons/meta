@@ -10,6 +10,9 @@ repositories may have additional guidelines that supersede those.
 Please consult the documentation for the particular project you're
 working in.
 
+For information about what service instances this project uses (e.g.,
+production, staging, etc), please see [INSTANCES.md](INSTANCES.md).
+
 For policies about data management, please see
 [POLICIES.md](POLICIES.md).
 
